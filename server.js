@@ -18,7 +18,7 @@ mongoose.connect("mongodb://localhost/ss-auth").then(()=>{
 
 {/* From mongo db */}
 
-// DB_URL = "mongodb+srv://suusername:supassword@cluster0.e4k8zoi.mongodb.net/?retryWrites=true&w=majority"
+// DB_URL = "mongodb+srv://username:password@cluster0.e4k8zoi.mongodb.net/?retryWrites=true&w=majority"
 
 {/* From mongo db */}
 app.set("view engine", "ejs")
